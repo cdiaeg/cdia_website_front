@@ -1,0 +1,123 @@
+.contact-component {
+  padding: 7rem 0;
+  background-image: url(../.././images/contact.png);
+
+  background-color: #222429;
+
+  background-repeat: no-repeat;
+}
+.contact-component .wrapperInput {
+  width: 48%;
+  margin-bottom: 20px;
+}
+.contact-component .wrapper-textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact-component .wrapper-textarea .error {
+  margin-top: -6px;
+}
+.contact-component input {
+  background-color: #0f0f0f !important;
+
+  border: 4px solid #323338;
+  /* border-radius: 0; */
+  padding: 14px 20px;
+  font-size: 1rem;
+  height: 70px;
+  color: var(--white);
+  outline: none;
+
+  width: 100%;
+}
+.contact-component .error {
+  color: red;
+  font-size: 12px;
+}
+.contact-component textarea {
+  background-color: #0f0f0f;
+
+  border: 4px solid #323338;
+  /* border-radius: 0; */
+  padding: 14px 20px;
+  font-size: 1rem;
+  height: 70px;
+  color: var(--white);
+  outline: none;
+
+  width: 100%;
+  height: 225px;
+}
+.contact-component input:focus,
+.contact-component textarea:focus {
+  border-color: var(--yellow);
+}
+.contact-component .row button {
+  padding: 1.2rem 3.2rem;
+  background-color: var(--yellow);
+  color: #18191c;
+  font-weight: 600;
+  border: 4px solid #323338;
+
+  /* border: 1px solid black; */
+}
+@media (max-width: 991px) {
+  .contact-component {
+    padding: 3rem 0;
+  }
+  .contact-component textarea {
+    height: 150px;
+  }
+}
+.contact-component .contant h6 {
+  color: var(--yellow);
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.contact-component .contant .title {
+  color: var(--white);
+  font-size: 50px;
+  font-weight: 700;
+  /* letter-spacing: -0.03em; */
+}
+@media (max-width: 768px) {
+  .contact-component .contant .title {
+    font-size: 35px;
+  }
+}
+.contact-component .contant .icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  margin-inline-end: 10px;
+}
+.contact-component .contant .icon svg {
+  font-size: 2rem;
+}
+.contact-component .contant .text p {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--white);
+}
+.contact-component .contant .text span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--lightGray);
+}
+.Toastify__toast-body div {
+  font-size: 15px;
+}
+@media (max-width: 500px) {
+  .Toastify__toast {
+    width: 320px;
+  }
+  .Toastify__toast-body div {
+    font-size: 8px;
+  }
+}

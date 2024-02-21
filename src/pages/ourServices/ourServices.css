@@ -1,0 +1,121 @@
+.services-page .sectionOne {
+  background-image: url("https://kodesolution.com/2023/desix/wp-content/uploads/2021/03/bg6.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 1px 5px 0px #ddd; */
+  position: relative;
+}
+.services-page .sectionOne::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.services-page h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: var(--white);
+  z-index: 5;
+}
+.img-card {
+  border-top: 5px solid var(--yellow);
+}
+.services-page .department {
+  box-sizing: border-box !important;
+
+  box-shadow: 0px 1px 5px 0px #ddd;
+  overflow: hidden;
+  /* height: 500px; */
+}
+.services-page .department img {
+  width: 100%;
+}
+.services-page .hover-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 35px 30px 20px;
+  z-index: 2;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease;
+  border-bottom: 5px solid var(--yellow);
+  transform: scaleY(0);
+  transform-origin: bottom;
+}
+.services-page .department:hover .hover-content {
+  transform: scaleY(100%);
+}
+.services-page .department .name {
+  bottom: -8px;
+  background: white;
+  /* right: 20px; */
+  /* left: 0; */
+  padding: 16px 30px;
+  transition: all 0.5s ease;
+}
+.services-page .hover-content .icons {
+  /* background: red; */
+  padding: 10px;
+  display: inline-block;
+  background-color: var(--yellow);
+}
+p {
+  color: white;
+}
+.icon-card {
+  bottom: 83px;
+  /* right: 20px; */
+  background: var(--yellow);
+  padding: 10px;
+}
+.services-page .department:hover .name,
+.services-page .department:hover .icon-card {
+  display: none;
+}
+.icon-card img,
+.hover-content img {
+  width: 35px !important;
+}
+.card-name {
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  color: var(--gray);
+}
+@media (max-width: 500px) {
+  .services-page .sectionOne {
+    height: 325px;
+  }
+  .services-page .title {
+    font-size: 2.2rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .services-page .sectionOne {
+    height: 370px;
+  }
+  .services-page .title {
+    font-size: 2.9rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 900px) {
+  .services-page .sectionOne {
+    height: 400px;
+  }
+  .services-page .title {
+    font-size: 2.9rem;
+  }
+}
+@media (min-width: 900px) {
+  .services-page .sectionOne {
+    height: 450px;
+  }
+  .services-page .title {
+    font-size: 3.2rem;
+  }
+}

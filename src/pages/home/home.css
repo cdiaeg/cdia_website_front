@@ -1,0 +1,51 @@
+/* .home_Page {
+  background-image: url("../../images/banner\ 1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+} */
+.home_Page .frist_baner {
+  /* background-color: red; */
+  left: 50%;
+  transform: translate(-50%, -100%);
+  text-align: center;
+  color: white;
+}
+.home_Page .frist_baner h1 {
+  font-size: 3.6rem;
+  font-weight: bolder;
+}
+@media (max-width: 500px) {
+  .home_Page .frist_baner {
+    transform: translate(-50%, -50%);
+  }
+  .home_Page .frist_baner h1 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .home_Page .frist_baner h1 {
+    font-size: 25px;
+  }
+  .home_Page .frist_baner {
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .home_Page .frist_baner h1 {
+    font-size: 2.5rem;
+  }
+  .home_Page .frist_baner {
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .home_Page .frist_baner h1 {
+    font-size: 3rem;
+  }
+  .home_Page .frist_baner {
+    transform: translate(-50%, -70%);
+  }
+}

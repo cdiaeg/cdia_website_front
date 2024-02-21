@@ -1,0 +1,54 @@
+.naav {
+  background-color: var(--gray) !important;
+}
+.naav .logo {
+  width: 150px;
+  height: 50px;
+  /* background-color: var(--yellow); */
+  background-image: url("../../images/logowhite.png");
+  background-size: cover;
+}
+.naav .nav-link {
+  color: var(--white) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.naav .nav-link:hover {
+  color: var(--yellow) !important;
+}
+.naav .dropdown-menu {
+  background-color: var(--yellow);
+  border-radius: 0;
+}
+.naav .dropdown-menu a {
+  color: var(--gray);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.naav .dropdown-menu a:focus {
+  background-color: transparent !important;
+}
+.naav .navbar-nav .languge {
+  background-color: var(--yellow) !important;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.naav .navbar-toggler {
+  background-color: var(--yellow);
+  box-shadow: none !important;
+}
+.naav .btn-active {
+  color: var(--yellow);
+}
+.naav .btn-disable {
+  color: var(--white);
+}
+.naav .activeLink,
+.naav .activeLink #navbarScrollingDropdown {
+  color: var(--yellow) !important;
+}
+.naav .dropdown-active {
+  background-color: var(--white);
+  /* color: var(--yellow) !important; */
+}

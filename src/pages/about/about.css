@@ -1,0 +1,44 @@
+.pageAboutUs .sectionOne {
+  background-image: url("https://kodesolution.com/2023/desix/wp-content/uploads/2021/03/bg6.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 1px 5px 0px #ddd; */
+  position: relative;
+}
+.pageAboutUs .sectionOne::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.pageAboutUs .sectionOne h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: var(--white);
+  z-index: 5;
+}
+@media (max-width: 500px) {
+  .pageAboutUs .sectionOne {
+    height: 300px;
+  }
+  .pageAboutUs .sectionOne h1 {
+    font-size: 2.1rem;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .pageAboutUs .sectionOne {
+    height: 370px;
+  }
+}
+@media (min-width: 769px) and (max-width: 900px) {
+  .pageAboutUs .sectionOne {
+    height: 400px;
+  }
+}
+@media (min-width: 900px) {
+  .pageAboutUs .sectionOne {
+    height: 450px;
+  }
+}

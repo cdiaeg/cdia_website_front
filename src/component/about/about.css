@@ -1,0 +1,75 @@
+.about {
+  background-color: var(--gray);
+  padding: 100px 0;
+}
+.about .frist-img {
+  width: 80%;
+  display: block;
+  /* margin-left: auto; */
+}
+.about .second-img {
+  bottom: -6%;
+  width: 47%;
+  height: 37%;
+  /* left: 0; */
+  border: 8px solid var(--black);
+  border-radius: 7px;
+}
+.about .aboutCompany {
+  color: var(--yellow);
+}
+.about .title {
+  color: var(--white);
+  font-size: 54px;
+}
+.about .wrap-icon {
+  position: relative;
+  width: 80px;
+}
+.about .circle {
+  /* position: absolute; */
+  content: "";
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  top: 34%;
+  background-color: black;
+  z-index: 1;
+}
+.about .icon {
+  transition: 0.3s ease;
+}
+
+.about .wrap-icon:hover .icon {
+  transform: rotateY(180deg);
+}
+@media (max-width: 500px) {
+  .about {
+    padding-top: 30px;
+  }
+  .about .title {
+    font-size: 30px;
+  }
+  .about .aboutCompany {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .about .title {
+    font-size: 30px;
+  }
+  .about .aboutCompany {
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 768px) {
+  .about .aboutCompany {
+    margin-top: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  .about .aboutCompany {
+    margin-top: 2rem;
+  }
+}

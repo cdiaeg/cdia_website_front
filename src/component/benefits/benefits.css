@@ -1,0 +1,32 @@
+.benefits {
+  background-color: var(--gray);
+  padding: 5rem 0;
+}
+.benefits .contint .title {
+  font-size: 16px;
+  color: var(--yellow);
+  letter-spacing: 0.1em;
+}
+.benefits .contint .question {
+  font-size: 40px;
+  color: var(--white);
+  /* letter-spacing: 0.1em; */
+  font-weight: 700;
+  margin: 15px 0 25px 0;
+}
+.benefits .contint .benefits-text {
+  color: var(--lightGray);
+}
+.benefits img {
+  height: 350px;
+}
+@media (max-width: 768px) {
+  .benefits .contint .question {
+    font-size: 28px;
+  }
+}
+@media (max-width: 991px) {
+  .benefits {
+    padding: 2rem 0;
+  }
+}
