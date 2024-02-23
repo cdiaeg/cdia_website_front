@@ -25,7 +25,7 @@ jobs:
       - name: Upload to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ftp://laseria.net
+          server: ftp://212.107.17.197
           username: u618083670.cdiaeg.com
           password: dgdf#@dsjfHAJS2
           local-dir: build/
