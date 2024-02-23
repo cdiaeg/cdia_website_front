@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: install cross-env
+      - name: Install cross-env
         run: npm install cross-env
         
       - name: Install dependencies
@@ -22,14 +22,10 @@ jobs:
       - name: Build React project
         run: npm run build
 
-      - name: test
-        run: ls
-
       - name: Upload to Hostinger
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          ftp-server: ftp://laseria.net
-          ftp-username: u618083670.cdiaeg.com
-          ftp-password: dgdf#@dsjfHAJS2
+          server: ftp://laseria.net
+          username: u618083670.cdiaeg.com
+          password: dgdf#@dsjfHAJS2
           local-dir: build
-          SKIP-GIT: true
