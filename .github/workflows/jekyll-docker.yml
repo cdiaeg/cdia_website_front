@@ -28,4 +28,4 @@ jobs:
           server: ftp://laseria.net
           username: u618083670.cdiaeg.com
           password: dgdf#@dsjfHAJS2
-          local-dir: build
+          local-dir: build/
