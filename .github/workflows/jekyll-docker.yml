@@ -27,5 +27,5 @@ jobs:
         with:
           ftp-server: ftp://laseria.net
           ftp-username: u618083670.cdiaeg.com
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          ftp-password: dgdf#@dsjfHAJS2
           local-dir: build
