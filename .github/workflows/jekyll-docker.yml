@@ -32,3 +32,4 @@ jobs:
           ftp-username: u618083670.cdiaeg.com
           ftp-password: dgdf#@dsjfHAJS2
           local-dir: build
+          SKIP-GIT: true
